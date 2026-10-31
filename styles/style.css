@@ -246,3 +246,90 @@ footer div {
 footer img {
     width: 30px;
 }
+
+@media (max-width: 480px) {
+
+    nav {
+        flex-direction: column;
+        gap: 15px;
+        padding: 20px 5% 10px;
+    }
+
+    nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .bloque-1 {
+        flex-direction: column;
+        padding: 30px 5% 0;
+        gap: 20px;
+        text-align: center;
+    }
+
+    .bloque-1 > img {
+        width: 200px;
+        align-self: center;
+    }
+
+    .bloque-1 h2 {
+        font-size: 30px;
+    }
+
+    .bloque-1 .mini-1 > p:first-of-type {
+        font-size: 16px;
+    }
+
+    .bloque-1 .mini-2 {
+        flex-direction: column;
+        margin: 25px 0 40px;
+        gap: 12px;
+    }
+
+    .bloque-2 {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+        padding: 15px 5%;
+    }
+
+    .bloque-2 img {
+        height: 35px;
+    }
+
+    .bloque-3 {
+        flex-direction: column;
+        gap: 50px;
+        padding: 50px 5%;
+    }
+
+    .bloque-4 {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+        padding: 30px 5%;
+    }
+
+    .bloque-5 {
+        flex-direction: column;
+        gap: 40px;
+        padding: 40px 5%;
+    }
+
+    .bloque-5 .mini-2,
+    .bloque-5 .mini-3 {
+        flex-direction: column;
+    }
+
+    .bloque-5 .mini-2 img,
+    .bloque-5 .mini-3 img {
+        width: 100%;
+        height: auto;
+    }
+
+    footer {
+        flex-direction: column;
+        gap: 15px;
+        margin: 0 5%;
+        text-align: center;
+    }
+}
